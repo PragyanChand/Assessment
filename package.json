@@ -1,0 +1,17 @@
+{
+  "name": "javascript-ag-grid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "customer-api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-beta.0"
+  },
+  "dependencies": {
+    "file-system": "^2.2.2"
+  }
+}

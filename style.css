@@ -1,0 +1,40 @@
+body {
+    font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: rgb(177, 208, 209);
+  }
+  
+thead input {
+    width: 100%;
+}
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1{
+background-color: rgb(12, 95, 128) !important;
+}
+table.dataTable.display tbody tr.even>.sorting_1, table.dataTable.order-column.stripe tbody tr.even>.sorting_1{
+    background-color: rgb(12, 95, 128) !important;
+}
+
+div.dtsb-searchBuilder div.dtsb-titleRow div.dtsb-title{
+    display: none !important;
+}
+
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-data, 
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-condition,
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-criteria select.dtsb-value,
+div.dtsb-searchBuilder div.dtsb-group div.dtsb-logicContainer, 
+div.dtsb-searchBuilder button.dtsb-button{
+    border-color: darkblue !important;
+    background-color: white !important;
+    color: black !important;
+}
+.dataTables_wrapper .dataTables_filter input{
+    background-color: white !important;
+}
+.dataTables_wrapper .dataTables_filter{
+    margin-bottom: 1.5em !important;
+}
+.dataTables_wrapper .dataTables_filter{
+    margin-top: -3.5em !important;
+}
